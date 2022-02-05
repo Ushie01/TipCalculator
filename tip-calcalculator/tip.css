@@ -1,0 +1,309 @@
+
+*{
+    font-family: 'Space Mono', monospace;
+    font-size: small;
+    box-sizing: border-box;
+
+}
+
+
+
+#id{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+#id1{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+img{
+    height: 22px; 
+    margin-bottom: 3px;
+    
+    
+}
+
+.error{
+    color: red;
+    margin-bottom: -7px;
+    float: right;
+}
+p{
+    color: grey;
+    font-weight: 900;
+    margin-bottom: 2px;
+}
+
+h1{
+    text-align: right;
+    color: #26C2AD;
+    float: right;
+    font-weight: 900;
+}
+
+h5{
+    font-size: 10px;
+    color: #fff;
+    padding-top: 10px;
+    font-weight: 900;
+    
+}
+
+
+h6{
+    font-size: 8px;
+    color: #C5E4E7;
+    margin-top: -20px;
+
+} 
+
+
+#dollar{
+    background-image: url(icon-dollar.svg);
+    background-size: 8px ;
+    background-repeat: no-repeat;
+    background-position-y: 9px;
+    background-position-x: 5px;
+    text-align: right;
+    font-size: 17px;
+    color: #00474B;
+    font-weight: 900;
+    background-color: #f3f8fb;
+    height: 28px;
+   
+}
+
+#dollar:hover{
+    background-color: #f3f8fb;
+    border: 2px solid #26C2AD;
+    font-weight: 900;
+
+}
+
+#person{
+    background-image: url(icon-person.svg);
+    background-size: 8px;
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+    background-position-x: 5px;
+    text-align: right;
+    font-size: 17px;
+    color: #00474B;
+    font-weight: 900;
+    background-color: #f3f8fb;
+    height: 28px;
+    
+}
+
+#person:hover{
+    background-color: #f3f8fb;
+    border: 2px solid #26C2AD;
+}
+
+.container-fluid{
+    background-color: #C5E4E7;
+    height: 700px;
+}
+
+
+.row2{
+    margin-top: 45px;
+}
+
+.tipImg{
+    background-image: url(logo.svg);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    image-resolution: true;
+    margin-top: 70px;
+}
+
+.billCal{
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    max-height: 100%px;
+
+}
+
+.left{
+    padding: 15px 15px 30px 30px;
+    float: left;
+    margin: left;
+}
+
+
+.col {
+    flex: 1;
+}
+
+
+.right{
+    
+    padding: 20px 0px 19px 0px;
+}
+
+.ella{
+    background-color: #00474B;
+    margin: -10px 20px 0px 5px;
+    padding: 0px 0px 0px 20px;
+    padding: auto;
+    border-radius: 10px;
+}
+
+.ella1{
+    display: flex;
+    width: 100%;
+    padding: 18px 0px;
+}
+.ella2{
+    display: flex;
+    width: 100%;
+    padding: 0px 0px;
+}
+
+.right1{
+    flex: 1;
+    display: flex;
+    width: 100%;
+}
+
+.btn{
+    height: 25px;
+    width: 90px;
+    background-color: #00474B;
+    font-weight: 900;
+    
+}
+
+.btn:hover{
+    background-color: #9FE8DF;
+    color: #00474B
+}
+.percent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-flow:wrap;
+    grid-row-gap: 6px;
+    grid-column-gap: 6px;
+}
+
+.percentage{
+    padding-top: 10px;
+}
+
+#custom{
+    background-color: #f3f8fb;
+    text-align: right;
+}
+#custom:hover{
+    background-color: #9FE8DF;
+}
+
+.reset{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+#reset:hover{
+    background-color: #9ee6dd;
+}
+#reset{
+    background-color: #26C2AD;
+    color: #00474B;
+    font-weight: 900;
+}
+
+@media screen and (max-width:1200px){
+    .left{
+        width: 90%;
+    }  
+}
+
+@media screen and (max-width:1200px){
+    .right{
+        width: 90%;
+    }  
+}
+@media screen and (max-width:768px){
+    .tipImg{
+        margin-top: 22px;
+    }
+    .left{
+        width: 95%;
+        margin: right;
+
+    }
+    .right{
+        width: 95%;
+        margin: right;
+        height: auto;
+        padding-left: 25px;
+        margin-top: -10px;
+        
+    }
+    h1{
+        text-align: right;
+        color: #26C2AD;
+        float: right;
+        font-weight: 900;
+        margin: -40px;
+        margin-right: 1px;
+        
+    }
+
+    h5{
+        font-size: 10px;
+        color: #fff;
+        padding-top: 10px;
+        font-weight: 900;
+        width: 70px;
+        
+    }
+    
+    
+    h6{
+        font-size: 8px;
+        color: #C5E4E7;
+        margin-top: -20px;
+        width:50px;
+    } 
+
+    .row2{
+        margin-top: 30px;
+    }
+
+    .billCal{
+        min-height: 50%;
+        margin-top: 30px;
+        
+    }
+    
+    .reset{
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .ella1{
+        display: flex;
+        width: 100%;
+        padding: 18px 0px;
+    }
+    .ella2{
+        display: flex;
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    .row2{
+        background-color: #fff;
+        border-radius: 20px;
+    }
+
+
+}
