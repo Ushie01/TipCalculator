@@ -9,7 +9,6 @@ document.getElementById("five").addEventListener('click', function() {
         let n1 = personGroup.toFixed(2);
         document.getElementById('icondollar1').innerHTML = `<img src="icon-dollar.svg" id="img">${n}`;
         document.getElementById('icondollar2').innerHTML = `<img src="icon-dollar.svg" id="img">${n1}`;
-
     } else {
         errAlert("Can't be Zero", 'error');
     }
@@ -53,11 +52,7 @@ document.getElementById("custom").addEventListener('input', function() {
 });
 
 document.querySelector("#reset").addEventListener('click', function() {
-    document.getElementById('icondollar1').innerText = "0.00";
-    document.getElementById('icondollar2').innerText = "0.00";
-    document.getElementById('dollar') = " ";
-    document.getElementById('person') = " ";
-
+  window.location.reload();
 })
 
 document.getElementById("ten").addEventListener('click', function() {
@@ -84,8 +79,6 @@ document.getElementById("fifteen").addEventListener('click', function() {
         let n = person.toFixed(2);
         personGroup = doll / person;
         let n1 = personGroup.toFixed(2);
-        image = document.getElementById('img').src;
-        image.src = 'icon-dollar.svg';
         document.getElementById('icondollar1').innerHTML = `<img src="icon-dollar.svg" id="img">${n}`;
         document.getElementById('icondollar2').innerHTML = `<img src="icon-dollar.svg" id="img">${n1}`;
 
