@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <link type="text/css" rel="stylesheet" href="tip.css">
+        <title>Tip Calculator</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="tipImg col-md"></div>
+            </div>
+            <div class="row row2">
+                
+                    <div class="col-md-6 m-auto billCal">
+                        <div class="left col-md-6 col-xs">
+                            <p>Bill</p>
+                                    <input type="text" id="dollar" class="form-control hidden-md" placeholder="0">
+
+                                    <p id="id">Select Tip %</p>
+                                    <div class="percent">
+                                        <input type="text" value="5%" class="btn btn-success btn-lg btn-block" id="five">
+                                        <input type="text" value="10%" class="btn btn-success btn-lg btn-block" id="ten">
+                                        <input type="text" value="15%" class="btn btn-success btn-lg btn-block" id="fifteen">
+                                        <input type="text" value="20%" class="btn btn-success btn-lg btn-block" id="twenty_five">
+                                        <input type="text" value="50%" class="btn btn-success btn-lg btn-block" id="fifty">
+                                        <input type="text" placeholder="Custom" class="btn btn-success btn-lg" id="custom">
+                                    </div>
+                                    
+                                    <p id="id1">Number of people</p>
+                                    <input type="text" id="person" class="form-control" placeholder="0">
+                
+                        </div>
+                            <div class="col-md-6 right">
+                                <div class="row ella">
+                                    <div class="row col-md-12 ella1">
+                                        <div class="col-md-6">
+                                            <h5>Tip Amount</h5></br> 
+                                            <h6>/ person</h6>
+                                        </div>
+                                        <div class="col-md-6" >
+                                            <h1 id="icondollar1"><img src="icon-dollar.svg" id="img">0.00</h1>
+                                        </div>
+                                    </div>
+                                    <div class="row col-md-12 ella2">
+                                        <div class="col-md-6">
+                                            <h5>Total</h5></br> 
+                                            <h6>/ person</h6>
+                                        </div>
+                                        <div class="col-md-6" >
+                                            <h1 id="icondollar2"><img src="icon-dollar.svg" id="img">0.00</h1>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row reset col-md-12">
+                                        <button class="btn-success form-control" id="reset" type="button">RESET</button>
+                                    </div>
+
+                            </div>
+                        </div>        
+                    </div>
+                
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
